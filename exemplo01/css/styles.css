@@ -1,8 +1,33 @@
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
 body {
+  /* A função rgb é utilizada para aplicar cores */
   background-color: rgb(40, 126, 71);
 }
 
 h1 {
   color: #fff;
-  background-color: #555;
+  font-family: "bold", sans-serif;
 }
+
+p {
+  color: #fff;
+  font-family: "regular", sans-serif;
+  font-size: 1.2em;
+}
+
+/*h1 {
+  color: #fff;
+  background-color: #555;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}*/

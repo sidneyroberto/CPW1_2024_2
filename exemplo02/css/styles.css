@@ -1,0 +1,32 @@
+body {
+  background-color: blueviolet;
+  margin: 0;
+}
+
+div {
+  margin: 30px auto;
+}
+
+#primeiro-bloco {
+  background-color: lightblue;
+  width: 400px;
+  height: 200px;
+  padding: 20px 30px 50px 10px;
+  /*padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 10px;*/
+  border: 20px solid black;
+  /*box-sizing: content-box;*/
+}
+
+#segundo-bloco {
+  background-color: burlywood;
+  width: 600px;
+  padding: 20px 0;
+  border: 5px solid red;
+}
+
+#segundo-bloco h1 {
+  text-align: center;
+}
