@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "logo";
+  src: url(../fonts/FascinateInline-Regular.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
