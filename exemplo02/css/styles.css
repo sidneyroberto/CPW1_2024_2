@@ -4,20 +4,25 @@ body {
 }
 
 div {
-  margin: 30px auto;
+  /* margin: 30px auto; */
 }
 
 #primeiro-bloco {
   background-color: lightblue;
-  width: 400px;
+  width: 50%;
   height: 200px;
-  padding: 20px 30px 50px 10px;
+  padding: 20px 30px 50px 30px;
   /*padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 10px;*/
   border: 20px solid black;
-  /*box-sizing: content-box;*/
+  box-sizing: border-box;
+  margin: 50px 0 20px 0;
+}
+
+h1 {
+  text-align: center;
 }
 
 #segundo-bloco {
