@@ -14,3 +14,75 @@ header h1 {
   font-size: 300%;
   text-shadow: 3px 3px 5px #000;
 }
+
+#main {
+  display: flex;
+  /*flex-direction: row;*/
+}
+
+#menu {
+  width: 20%;
+  background-color: var(--menu-color);
+  color: #fff;
+  padding: 20px 10px;
+}
+
+#menu span {
+  font-family: "bold";
+  font-size: 22px;
+}
+
+#menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#menu li {
+  font-family: "regular";
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#menu li:hover {
+  color: #555;
+}
+
+#content {
+  width: 80%;
+  padding: 30px 20px;
+  background-color: var(--content-color);
+}
+
+#content-title {
+  font-family: "bold";
+  text-align: center;
+}
+
+.movie-card {
+  background-color: var(--movie-card-color);
+  border-radius: 50px;
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  padding: 40px;
+}
+
+.movie-card img {
+  width: 50%;
+}
+
+.movie-card span {
+  width: 50%;
+  padding: 0 20px;
+  font-family: "regular";
+}
+
+footer {
+  background-color: var(--footer-color);
+  padding: 50px 20px;
+}
+
+footer span {
+  color: #fff;
+  font-family: "bold";
+}

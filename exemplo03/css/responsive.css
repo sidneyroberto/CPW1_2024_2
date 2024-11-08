@@ -1,0 +1,39 @@
+/* Breakpoint para smartphones */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px 0;
+  }
+
+  header h1 {
+    margin: 10px 0;
+    font-size: 200%;
+  }
+
+  #main {
+    flex-direction: column;
+  }
+
+  #menu,
+  #content {
+    width: 100%;
+  }
+
+  #menu {
+    padding: 10px 0;
+  }
+
+  #menu span {
+    display: none;
+  }
+
+  #menu ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    gap: 30px; /* lacuna entre os itens deste contêiner */
+  }
+
+  #menu li {
+    /*margin-right: 30px;*/
+  }
+}
