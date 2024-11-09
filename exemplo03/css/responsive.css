@@ -33,7 +33,30 @@
     gap: 30px; /* lacuna entre os itens deste contêiner */
   }
 
-  #menu li {
-    /*margin-right: 30px;*/
+  #content {
+    padding: 15px 10px;
+    box-sizing: border-box;
+  }
+
+  #content-title {
+    font-size: 150%;
+  }
+
+  .movie-card {
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 25px;
+    gap: 20px;
+  }
+
+  .movie-card img,
+  .movie-card span {
+    width: 100%;
+  }
+
+  .movie-card span {
+    padding: 0;
+    text-align: center;
   }
 }
