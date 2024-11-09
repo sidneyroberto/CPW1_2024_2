@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
 }
@@ -11,7 +15,7 @@ header h1 {
   text-align: center;
   font-family: "logo";
   color: #fff;
-  font-size: 300%;
+  font-size: 3rem;
   text-shadow: 3px 3px 5px #000;
 }
 
@@ -29,7 +33,7 @@ header h1 {
 
 #menu span {
   font-family: "bold";
-  font-size: 22px;
+  font-size: 1.5rem;
 }
 
 #menu ul {
@@ -41,6 +45,7 @@ header h1 {
   font-family: "regular";
   margin-bottom: 10px;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 #menu li:hover {
@@ -56,6 +61,7 @@ header h1 {
 #content-title {
   font-family: "bold";
   text-align: center;
+  font-size: 2rem;
 }
 
 .movie-card {
@@ -75,6 +81,7 @@ header h1 {
   width: 50%;
   padding: 0 20px;
   font-family: "regular";
+  font-size: 1rem;
 }
 
 footer {
@@ -85,4 +92,5 @@ footer {
 footer span {
   color: #fff;
   font-family: "bold";
+  font-size: 1rem;
 }

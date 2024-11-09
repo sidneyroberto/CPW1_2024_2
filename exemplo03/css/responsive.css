@@ -1,12 +1,16 @@
 /* Breakpoint para smartphones */
-@media screen and (max-width: 600px) {
+/* Media query / Media rule */
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+
   header {
     padding: 10px 0;
   }
 
   header h1 {
     margin: 10px 0;
-    font-size: 200%;
   }
 
   #main {
@@ -38,10 +42,6 @@
     box-sizing: border-box;
   }
 
-  #content-title {
-    font-size: 150%;
-  }
-
   .movie-card {
     flex-direction: column;
     margin: 20px auto;
@@ -58,5 +58,36 @@
   .movie-card span {
     padding: 0;
     text-align: center;
+  }
+
+  footer {
+    padding: 20px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main {
+    flex-direction: column;
+  }
+
+  #menu,
+  #content {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #menu {
+    padding: 10px 0;
+  }
+
+  #menu span {
+    display: none;
+  }
+
+  #menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
   }
 }
