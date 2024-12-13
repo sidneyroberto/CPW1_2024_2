@@ -1,0 +1,49 @@
+:root {
+  --hero-image: url(../img/hero.jpg);
+  --header-background: #24252a;
+  --marketing-black-background: radial-gradient(#000, #222111);
+  --marketing-white-background: #fff;
+  --footer-background: #24252a;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+}
+
+header {
+  background-color: var(--header-background);
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  filter: opacity(0.7);
+  box-sizing: border-box;
+}
+
+#app-title,
+#about,
+#products {
+  color: #fff;
+}
+
+#app-title {
+  font-family: "regular";
+  margin: 0;
+}
+
+#about,
+#products {
+  font-family: "thin";
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+#about:hover,
+#products:hover {
+  color: #ccc;
+}
+
+#about {
+  margin-left: auto;
+}
