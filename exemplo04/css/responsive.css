@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+  #hero {
+    height: 300px;
+  }
+
+  #slogan span {
+    font-size: 30px;
+  }
+
+  #hero-text p {
+    font-size: 24px;
+  }
+
+  .white-title,
+  .black-title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .white-description,
+  .black-description {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .product {
+    animation: none;
+    opacity: 1;
+    width: 80%;
+  }
+}

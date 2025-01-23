@@ -92,3 +92,57 @@ header {
 .marketing-white {
   background-color: #fff;
 }
+
+.marketing-black {
+  background: var(--marketing-black-background);
+}
+
+.white-title,
+.white-description {
+  color: #fff;
+}
+
+.white-title,
+.black-title {
+  font-family: "regular";
+  font-size: 54px;
+}
+
+.white-description,
+.black-description {
+  font-family: "thin";
+  font-size: 32px;
+}
+
+.product {
+  width: 30%;
+}
+
+.know-more {
+  margin: 40px 0;
+  background-color: #038aff;
+  border: none;
+  width: 200px;
+  padding: 10px 0;
+  color: #fff;
+  font-family: "regular";
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.marketing-white {
+  background-color: var(--marketing-white-background);
+}
+
+footer {
+  background-color: var(--footer-background);
+  padding: 10px 20px;
+}
+
+footer p {
+  color: #aaa;
+  font-family: "thin";
+  font-size: 14px;
+  text-align: center;
+}
