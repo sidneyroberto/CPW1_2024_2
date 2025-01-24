@@ -30,6 +30,7 @@ header {
 #app-title {
   font-family: "regular";
   margin: 0;
+  animation: rotation 3s infinite linear;
 }
 
 #about,
@@ -37,6 +38,12 @@ header {
   font-family: "thin";
   font-size: 1.2rem;
   text-decoration: none;
+  animation: shake 1s infinite linear /*bezier*/;
+}
+
+#about:hover,
+#products:hover {
+  animation: none;
 }
 
 #about:hover,
@@ -73,12 +80,21 @@ header {
 #slogan span {
   font-family: "regular";
   font-size: 3.8rem;
+  letter-spacing: -5px;
+  opacity: 0;
+  animation: fade-in 500ms;
+  animation-fill-mode: forwards;
+  animation-delay: calc(50ms * var(--i));
 }
 
 #hero-text p {
   text-align: center;
   font-family: "italic";
   font-size: 3rem;
+  opacity: 0;
+  animation: fade-in 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
 }
 
 .marketing-black,
@@ -87,6 +103,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.marketing-black:hover .product,
+.marketing-white:hover .product {
+  animation: fade-in 2s;
+  animation-fill-mode: forwards;
 }
 
 .marketing-white {
@@ -116,6 +138,8 @@ header {
 
 .product {
   width: 30%;
+  opacity: 0;
+  animation: fade-out 2s;
 }
 
 .know-more {
